@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;net45</TargetFrameworks>
+	<PackageId>NBitcoin.Dash</PackageId>
+	<PackageVersion>1.0.0.7</PackageVersion>
+	<Authors>Nicolas Dorier</Authors>
+	<Description>Networks instances for Dash</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright 2017 (c) Metaco SA. All rights reserved.</Copyright>
+	<PackageTags>Dash</PackageTags>
+	<AssemblyVersion>1.0.0.7</AssemblyVersion>
+	<FileVersion>1.0.0.7</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NBitcoin" Version="4.0.0.4" />
+  </ItemGroup>
+
+</Project>
