@@ -54,7 +54,6 @@ namespace NBitcoin.Dash
                 MinerConfirmationWindow = 2016, // nPowTargetTimespan / nPowTargetSpacing
                 CoinbaseMaturity = 100,
 				HashGenesisBlock = new uint256("0x00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6"),
-				GetPoWHash = GetPoWHash,
 				LitecoinWorkCalculation = true
 			})
 			.SetBase58Bytes(Base58Type.PUBKEY_ADDRESS, new byte[] { 76 })
@@ -97,7 +96,6 @@ namespace NBitcoin.Dash
 				MinerConfirmationWindow = 2016, // nPowTargetTimespan / nPowTargetSpacing
 				CoinbaseMaturity = 100,
 				HashGenesisBlock = new uint256("0x00000bafbc94add76cb75e2ec92894837288a481e5c005f6563d91623bf8bc2c"),
-				GetPoWHash = GetPoWHash,
 				LitecoinWorkCalculation = true
 			})
 			.SetBase58Bytes(Base58Type.PUBKEY_ADDRESS, new byte[] { 140 })
